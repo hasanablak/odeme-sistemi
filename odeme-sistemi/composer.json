@@ -1,0 +1,22 @@
+{
+	"name": "hasanablak/odeme-sistemi",
+	"autoload": {
+		"psr-4": {
+			"Hasanablak\\OdemeSistemi\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Hasan Ablak",
+			"email": "0hasanablak@gmail.com"
+		}
+	],
+	"require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Hasanablak\\OdemeSistemi\\Providers\\OdemeSistemiServiceProvider"
+			]
+		}
+	}
+}
